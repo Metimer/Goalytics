@@ -27,13 +27,19 @@ jobs:
         pip install -r requirements.txt  # Installe les dépendances Python à partir de requirements.txt
 
     - name: Run requetes_api.py
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Passer le token comme variable d'environnement
       run: |
         python requetes_api.py  # Exécute le script requetes_api.py
 
     - name: Run extract_stats.py
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Passer le token comme variable d'environnement
       run: |
         python extract_stats.py  # Exécute le script extract_stats.py
 
     - name: Run extract_cotes_du_jour.py
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Passer le token comme variable d'environnement
       run: |
         python extract_cotes_du_jour.py  # Exécute le script extract_cotes_du_jour.py
