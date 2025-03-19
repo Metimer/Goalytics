@@ -1,0 +1,39 @@
+name: Run Python Scripts
+
+on:
+  push:
+    branches:
+      - main  # Déclencher l'action lors d'un push sur la branche `main`
+  schedule:
+    - cron: '0 0 * * *'  # Déclencher tous les jours à minuit (UTC)
+  workflow_dispatch:  # Permet d'exécuter le workflow manuellement depuis l'interface GitHub
+
+jobs:
+  run_scripts:
+    runs-on: ubuntu-latest  # Utilise la dernière version d'Ubuntu comme environnement
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # Clone le dépôt dans l'environnement de travail
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'  # Spécifie la version de Python à utiliser
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Installe les dépendances Python à partir de requirements.txt
+
+    - name: Run requetes_api.py
+      run: |
+        python requetes_api.py  # Exécute le script requetes_api.py
+
+    - name: Run extract_stats.py
+      run: |
+        python extract_stats.py  # Exécute le script extract_stats.py
+
+    - name: Run extract_cotes_du_jour.py
+      run: |
+        python extract_cotes_du_jour.py  # Exécute le script extract_cotes_du_jour.py
