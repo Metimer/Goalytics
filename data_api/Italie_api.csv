@@ -1,0 +1,21 @@
+country_name,league_id,league_name,team_id,team_name,overall_promotion,overall_league_position,overall_league_payed,overall_league_W,overall_league_D,overall_league_L,overall_league_GF,overall_league_GA,overall_league_PTS,home_league_position,home_promotion,home_league_payed,home_league_W,home_league_D,home_league_L,home_league_GF,home_league_GA,home_league_PTS,away_league_position,away_promotion,away_league_payed,away_league_W,away_league_D,away_league_L,away_league_GF,away_league_GA,away_league_PTS,league_round,team_badge,fk_stage_key,stage_name
+Italy,207,Serie A,79,Inter,Promotion - Champions League (League phase: ),1,29,19,7,3,65,27,64,1,,14,10,3,1,32,16,33,2,,15,9,4,2,33,11,31,,https://apiv3.apifootball.com/badges/79_inter-milan.jpg,331,Current
+Italy,207,Serie A,152,Napoli,Promotion - Champions League (League phase: ),2,29,18,7,4,45,23,61,3,,14,10,2,2,21,10,32,3,,15,8,5,2,24,13,29,,https://apiv3.apifootball.com/badges/152_napoli.jpg,331,Current
+Italy,207,Serie A,85,Atalanta,Promotion - Champions League (League phase: ),3,29,17,7,5,63,28,58,9,,14,7,4,3,29,18,25,1,,15,10,3,2,34,10,33,,https://apiv3.apifootball.com/badges/85_atalanta.jpg,331,Current
+Italy,207,Serie A,4983,Bologna,Promotion - Champions League (League phase: ),4,29,14,11,4,49,34,53,2,,15,9,5,1,29,13,32,6,,14,5,6,3,20,21,21,,https://apiv3.apifootball.com/badges/4983_bologna.jpg,331,Current
+Italy,207,Serie A,96,Juventus,Promotion - Europa League (League phase: ),5,29,13,13,3,45,28,52,6,,15,7,7,1,24,14,28,5,,14,6,6,2,21,14,24,,https://apiv3.apifootball.com/badges/96_juventus.jpg,331,Current
+Italy,207,Serie A,93,Lazio,Promotion - Conference League (Qualification: ),6,29,15,6,8,50,41,51,8,,14,7,5,2,28,20,26,4,,15,8,1,6,22,21,25,,https://apiv3.apifootball.com/badges/93_lazio.jpg,331,Current
+Italy,207,Serie A,139,AS Roma,,7,29,14,7,8,44,30,49,4,,15,10,1,4,31,13,31,10,,14,4,6,4,13,17,18,,https://apiv3.apifootball.com/badges/139_roma.jpg,331,Current
+Italy,207,Serie A,4974,Fiorentina,,8,29,14,6,9,46,30,48,5,,15,9,3,3,26,15,30,8,,14,5,3,6,20,15,18,,https://apiv3.apifootball.com/badges/4974_fiorentina.jpg,331,Current
+Italy,207,Serie A,159,AC Milan,,9,29,13,8,8,44,33,47,7,,15,7,6,2,23,12,27,7,,14,6,2,6,21,21,20,,https://apiv3.apifootball.com/badges/159_ac-milan.jpg,331,Current
+Italy,207,Serie A,4984,Udinese,,10,29,11,7,11,35,39,40,10,,15,7,2,6,19,18,23,11,,14,4,5,5,16,21,17,,https://apiv3.apifootball.com/badges/4984_udinese.jpg,331,Current
+Italy,207,Serie A,4973,Torino,,11,29,9,11,9,34,34,38,11,,14,5,5,4,13,12,20,9,,15,4,6,5,21,22,18,,https://apiv3.apifootball.com/badges/4973_torino.jpg,331,Current
+Italy,207,Serie A,4986,Genoa,,12,29,8,11,10,28,37,35,13,,15,4,7,4,17,18,19,12,,14,4,4,6,11,19,16,,https://apiv3.apifootball.com/badges/4986_genoa.jpg,331,Current
+Italy,207,Serie A,8239,Como,,13,29,7,8,14,35,46,29,12,,14,5,4,5,22,22,19,17,,15,2,4,9,13,24,10,,https://apiv3.apifootball.com/badges/8239_como.jpg,331,Current
+Italy,207,Serie A,4982,Verona,,14,29,9,2,18,29,58,29,18,,14,4,1,9,13,32,13,13,,15,5,1,9,16,26,16,,https://apiv3.apifootball.com/badges/4982_verona.jpg,331,Current
+Italy,207,Serie A,4981,Cagliari,,15,29,6,8,15,28,44,26,15,,15,4,4,7,16,24,16,16,,14,2,4,8,12,20,10,,https://apiv3.apifootball.com/badges/4981_cagliari.jpg,331,Current
+Italy,207,Serie A,5010,Lecce,,16,29,6,7,16,21,48,25,17,,14,3,5,6,11,25,14,15,,15,3,2,10,10,23,11,,https://apiv3.apifootball.com/badges/5010_lecce.jpg,331,Current
+Italy,207,Serie A,4978,Parma,,17,29,5,10,14,35,49,25,14,,15,4,4,7,22,25,16,18,,14,1,6,7,13,24,9,,https://apiv3.apifootball.com/badges/4978_parma.jpg,331,Current
+Italy,207,Serie A,4979,Empoli,Relegation - Serie B,18,29,4,10,15,23,46,22,20,,14,1,5,8,5,20,8,14,,15,3,5,7,18,26,14,,https://apiv3.apifootball.com/badges/4979_empoli.jpg,331,Current
+Italy,207,Serie A,5007,Venezia,Relegation - Serie B,19,29,3,11,15,23,42,20,16,,14,3,5,6,12,15,14,20,,15,0,6,9,11,27,6,,https://apiv3.apifootball.com/badges/5007_venezia.jpg,331,Current
+Italy,207,Serie A,4990,Monza,Relegation - Serie B,20,29,2,9,18,24,49,15,19,,15,1,5,9,11,20,8,19,,14,1,4,9,13,29,7,,https://apiv3.apifootball.com/badges/4990_monza.jpg,331,Current

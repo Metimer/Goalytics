@@ -1,0 +1,19 @@
+country_name,league_id,league_name,team_id,team_name,overall_promotion,overall_league_position,overall_league_payed,overall_league_W,overall_league_D,overall_league_L,overall_league_GF,overall_league_GA,overall_league_PTS,home_league_position,home_promotion,home_league_payed,home_league_W,home_league_D,home_league_L,home_league_GF,home_league_GA,home_league_PTS,away_league_position,away_promotion,away_league_payed,away_league_W,away_league_D,away_league_L,away_league_GF,away_league_GA,away_league_PTS,league_round,team_badge,fk_stage_key,stage_name
+France,168,Ligue 1,100,PSG,Promotion - Champions League (League phase: ),1,26,21,5,0,73,25,68,1,,13,11,2,0,38,11,35,1,,13,10,3,0,35,14,33,,https://apiv3.apifootball.com/badges/100_psg.jpg,279,Current
+France,168,Ligue 1,83,Marseille,Promotion - Champions League (League phase: ),2,26,15,4,7,53,33,49,9,,13,6,4,3,25,17,22,2,,13,9,0,4,28,16,27,,https://apiv3.apifootball.com/badges/83_marseille.jpg,279,Current
+France,168,Ligue 1,3817,Monaco,Promotion - Champions League (League phase: ),3,26,14,5,7,51,32,47,2,,13,9,2,2,31,15,29,7,,13,5,3,5,20,17,18,,https://apiv3.apifootball.com/badges/3817_monaco.jpg,279,Current
+France,168,Ligue 1,145,Nice,Promotion - Champions League (Qualification: ),4,26,13,8,5,50,31,47,3,,13,8,4,1,28,12,28,5,,13,5,4,4,22,19,19,,https://apiv3.apifootball.com/badges/145_nice.jpg,279,Current
+France,168,Ligue 1,3815,Lyon,Promotion - Europa League (League phase: ),5,26,13,6,7,50,33,45,5,,13,8,2,3,28,17,26,4,,13,5,4,4,22,16,19,,https://apiv3.apifootball.com/badges/3815_lyon.jpg,279,Current
+France,168,Ligue 1,160,Lille,Promotion - Conference League (Qualification: ),6,26,12,8,6,40,28,44,4,,13,8,3,2,24,15,27,9,,13,4,5,4,16,13,17,,https://apiv3.apifootball.com/badges/160_lille.jpg,279,Current
+France,168,Ligue 1,3818,Strasbourg,,7,26,12,7,7,41,33,43,6,,12,7,4,1,20,11,25,8,,14,5,3,6,21,22,18,,https://apiv3.apifootball.com/badges/3818_strasbourg.jpg,279,Current
+France,168,Ligue 1,3821,Lens,,8,26,11,6,9,31,29,39,11,,13,5,2,6,14,16,17,3,,13,6,4,3,17,13,22,,https://apiv3.apifootball.com/badges/3821_lens.jpg,279,Current
+France,168,Ligue 1,3823,Brest,,9,26,11,4,11,38,40,37,7,,13,7,3,3,25,17,24,13,,13,4,1,8,13,23,13,,https://apiv3.apifootball.com/badges/3823_brest.jpg,279,Current
+France,168,Ligue 1,3794,Toulouse,,10,26,9,7,10,33,29,34,13,,13,4,4,5,14,14,16,6,,13,5,3,5,19,15,18,,https://apiv3.apifootball.com/badges/3794_toulouse.jpg,279,Current
+France,168,Ligue 1,3797,Auxerre,,11,26,8,8,10,37,39,32,8,,13,6,5,2,20,11,23,15,,13,2,3,8,17,28,9,,https://apiv3.apifootball.com/badges/3797_auxerre.jpg,279,Current
+France,168,Ligue 1,91,Rennes,,12,26,9,2,15,35,37,29,10,,14,7,1,6,21,15,22,16,,12,2,1,9,14,22,7,,https://apiv3.apifootball.com/badges/91_rennes.jpg,279,Current
+France,168,Ligue 1,3820,Nantes,,13,26,6,9,11,29,43,27,14,,13,4,4,5,15,16,16,14,,13,2,5,6,14,27,11,,https://apiv3.apifootball.com/badges/3820_nantes.jpg,279,Current
+France,168,Ligue 1,3827,Angers,,14,26,7,6,13,26,42,27,16,,13,3,2,8,14,27,11,10,,13,4,4,5,12,15,16,,https://apiv3.apifootball.com/badges/3827_angers.jpg,279,Current
+France,168,Ligue 1,182,Reims,,15,26,5,8,13,26,40,23,17,,13,2,4,7,13,21,10,12,,13,3,4,6,13,19,13,,https://apiv3.apifootball.com/badges/182_reims.jpg,279,Current
+France,168,Ligue 1,3804,Le Havre,Ligue 1 (Promotion - Play Offs: ),16,26,6,3,17,26,55,21,18,,13,2,1,10,9,30,7,11,,13,4,2,7,17,25,14,,https://apiv3.apifootball.com/badges/3804_le-havre.jpg,279,Current
+France,168,Ligue 1,3826,St Etienne,Relegation - Ligue 2,17,25,5,5,15,25,57,20,12,,12,5,2,5,15,17,17,18,,13,0,3,10,10,40,3,,https://apiv3.apifootball.com/badges/3826_saint-etienne.jpg,279,Current
+France,168,Ligue 1,3819,Montpellier,Relegation - Ligue 2,18,25,4,3,18,21,59,15,15,,13,3,3,7,16,33,12,17,,12,1,0,11,5,26,3,,https://apiv3.apifootball.com/badges/3819_montpellier.jpg,279,Current
