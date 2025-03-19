@@ -1,9 +1,9 @@
 beautifulsoup4==4.13.3
 certifi==2025.1.31
 charset-normalizer==3.4.1
-gitrepo==2.32.2
+gitpython==3.1.30  # Remplacé gitrepo par gitpython
 idna==3.10
-numpy==2.2.4
+numpy==1.24.0  # Mis à jour avec une version valide de numpy
 pandas==2.2.3
 python-dateutil==2.9.0.post0
 pytz==2025.1
