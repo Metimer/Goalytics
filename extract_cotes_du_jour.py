@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import pandas as pd
 import os
-from git import Repo  # Importer la bibliothèque git
+from git import Repo  
 
 # Dictionnaire des ligues avec les noms des pays et les suffixes urls
 ligues = {
