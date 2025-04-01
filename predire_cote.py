@@ -5,6 +5,8 @@ from sklearn.model_selection import train_test_split
 from xgboost import XGBRegressor
 from sklearn.model_selection import RandomizedSearchCV
 import numpy as np
+import os
+from git import Repo
 
 # Chargement des données
 cotes_jour = pd.read_csv('https://raw.githubusercontent.com/Metimer/Goalytics/refs/heads/main/cotes_du_jour.csv')
