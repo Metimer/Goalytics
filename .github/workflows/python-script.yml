@@ -43,3 +43,10 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Passer le token comme variable d'environnement
       run: |
         python extract_cotes_du_jour.py  # Exécute le script extract_cotes_du_jour.py
+
+    - name: Run predire_cote.py
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Passer le token comme variable d'environnement
+      run: |
+        python predire_cote.py  # Exécute le script extract_cotes_du_jour.py
+
