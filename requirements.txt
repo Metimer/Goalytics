@@ -1,9 +1,9 @@
 beautifulsoup4==4.13.3
 certifi==2025.1.31
 charset-normalizer==3.4.1
-gitpython==3.1.30  # Remplacé gitrepo par gitpython
+gitpython==3.1.30
 idna==3.10
-numpy==1.24.0  # Mis à jour avec une version valide de numpy
+numpy==1.24.0
 pandas==2.2.3
 python-dateutil==2.9.0.post0
 pytz==2025.1
@@ -13,3 +13,9 @@ soupsieve==2.6
 typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
+streamlit==1.33.0
+scikit-learn==1.6.1
+xgboost==2.0.3
+streamlit-authenticator==0.3.3  # Pour l'authentification (voir plus bas)
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
