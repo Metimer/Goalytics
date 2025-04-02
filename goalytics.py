@@ -154,7 +154,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-API_KEY = st.secrets["HF_API_KEY"]
+API_KEY = st.secrets[HF_API_KEY]
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
