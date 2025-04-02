@@ -188,14 +188,14 @@ def query_huggingface(question):
 
 # Logo dans la sidebar
 logo_url = "https://i.postimg.cc/g03Cmvnp/image-2.png"
-st.sidebar.image(logo_url, width=200)
+st.sidebar.image(logo_url, width=280)
 
 # Chargement des données
 loading_gif = "https://www.photofunky.net/output/image/5/1/3/c/513c2f/photofunky.gif"  
 gif_container = st.empty()
 
 # Afficher le GIF dans le conteneur
-gif_container.image(loading_gif, width=200)
+gif_container.image(loading_gif, width=800)
 
 # Chargement des données
 pays_stats_scores = {
