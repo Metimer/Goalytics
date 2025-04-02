@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-import os
-from dotenv import load_dotenv
+
 
 
 
@@ -154,8 +153,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-load_dotenv()
-API_KEY = os.getenv("HF_API_KEY")
+
+API_KEY = st.secrets["HF_API_KEY"]
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
