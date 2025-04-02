@@ -13,7 +13,7 @@ soupsieve==2.6
 typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
-streamlit==1.33.0
+streamlit==1.42.0
 scikit-learn==1.4.2
 xgboost==2.0.3
 streamlit-authenticator==0.3.3  # Pour l'authentification (voir plus bas)
