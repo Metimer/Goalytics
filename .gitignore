@@ -1,0 +1,12 @@
+# Ignorer les fichiers contenant des clés API
+.env
+
+# Ignorer les fichiers cachés de macOS
+.DS_Store
+
+# Ignorer les fichiers de logs et les caches
+*.log
+__pycache__/
+
+# Ignorer les secrets Streamlit
+.streamlit/secrets.toml
