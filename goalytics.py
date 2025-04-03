@@ -65,6 +65,8 @@ st.markdown(
     font-size: 18px !important;
     font-weight: bold;
     color: white !important;
+    width: 100% !important;
+    max-width: 100% !important;
     }
 
     [data-testid="stTable"] tbody tr td {
@@ -76,6 +78,8 @@ st.markdown(
     div[data-testid="stDataEditor"] td {
             font-size: 14px !important;
             font-weight: bold;
+            width: 100% !important;
+            max-width: 100% !important;
     }
     div.stAlert {
         background-color: #191970;  
