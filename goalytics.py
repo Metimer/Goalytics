@@ -340,7 +340,7 @@ elif selection == "Statistiques et cotes":
 
     pays_df2=club_pred[club_pred['Pays']==pays_input]
     club_df=pays_df[pays_df['Équipe']==equipe_input]
-    club_cote = club_pred[(club_pred['Equipe Domicile'] == equipe_input) | (club_pred['Equipe Extérieure'] == equipe_input)]
+    club_cote = pays_df2[(pays_df2['Equipe Domicile'] == equipe_input) | (pays_df2['Equipe Extérieure'] == equipe_input)]
     #Affichage des statistiques et cotes du pays sélectionné
     st.markdown(
         f"""
