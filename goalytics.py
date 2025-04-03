@@ -397,7 +397,7 @@ elif selection == "Nos prédictions":
     )
         
     else:
-        st.success(f"Bienvenue {user_name}! , vous avez accès à cette page réservée aux membres!")
+        st.success(f"Vous êtes de la team {user_name}! , vous avez accès à cette page réservée aux membres!")
         st.markdown('<div class="title"> Goalytics - Decode The Game © </div>', unsafe_allow_html=True)
         
         def highlight_cells(val):       
