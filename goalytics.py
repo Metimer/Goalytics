@@ -438,9 +438,9 @@ elif selection == "Nos prédictions":
         """,
         unsafe_allow_html=True
     )
-        st.write("💬 **Posez une question et obtenez une réponse !**")
+        st.write("💬 **Posez une question au conseiller et il va essayer de vous répondre !**")
 
-        user_input = st.text_area("Pose une question sur le sport :")
+        user_input = st.text_area("Posez une question sur les paris  :")
         if st.button("Envoyer") and user_input:
             with st.spinner("Le conseiller réfléchit... 🤔"):
                 st.write("🧠 Réponse :", query_huggingface(user_input))
