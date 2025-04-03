@@ -241,11 +241,24 @@ for key, df in pays_stats_scores.items():  # ✅ Récupérer clé et DataFrame
 cotes_du_jour=pd.read_csv('https://raw.githubusercontent.com/Metimer/Goalytics/refs/heads/main/cotes_du_jour.csv')
 cotes_du_jour.dropna(inplace=True)
 cotes_du_jour['Ligue']=cotes_du_jour['Ligue'].replace(['l1-mcdonald-s','serie-a','laliga','bundesliga-1','premier-league'],['Ligue 1','Serie A','La Liga','Bundesliga','Premier League'])
+
 cotes_du_jour2=cotes_du_jour.copy()
 cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Ein.Francfort","Eintracht Frankfurt")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Mayence","Mainz")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Leverkusen","Bayer Leverkusen")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("M'Gladbach","B. Monchengladbach")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Fribourg","Freiburg")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Werder Brême","Werder Bremen")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("St Pauli","St.Pauli")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("FC Barcelone","Barcelona")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Ath. Bilbao","Ath Bilbao")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("M'Gladbach","B. Monchengladbach")
+
+
 pred_du_jour=pd.read_csv('https://raw.githubusercontent.com/Metimer/Goalytics/refs/heads/main/predictions_du_jour.csv')
 pred_du_jour['Pays']=pred_du_jour['Pays'].str.capitalize()
 pred_du_jour['Ligue']=pred_du_jour['Ligue'].replace(['l1-mcdonald-s','serie-a','laliga','bundesliga-1','premier-league'],['Ligue 1','Serie A','La Liga','Bundesliga','Premier League'])
+club_pred=pred_du_jour.drop(['Victoire Domicile pred','Match Nul pred','Victoire Extérieur pred'],axis=1).copy()
 pred_du_jour[['Victoire Domicile pred','Match Nul pred','Victoire Extérieur pred']]=pred_du_jour[['Victoire Domicile pred','Match Nul pred','Victoire Extérieur pred']].round(2)
 pred_du_jour[['Cote Domicile', 'Cote Nul', 'Cote Extérieur']] = pred_du_jour[['Cote Domicile', 'Cote Nul', 'Cote Extérieur']].replace({",": "."}, regex=True)
 pred_du_jour[['Cote Domicile', 'Cote Nul', 'Cote Extérieur']] = pred_du_jour[['Cote Domicile', 'Cote Nul', 'Cote Extérieur']].astype(float).round(2)
@@ -324,11 +337,10 @@ elif selection == "Statistiques et cotes":
         logo_ligue = logos[ligue]
     else:
         logo_ligue = None
-    pred_du_jour['Pays']=pred_du_jour['Pays'].str.capitalize()
-    club_pred=pred_du_jour.drop(['Victoire Domicile pred','Match Nul pred','Victoire Extérieur pred'],axis=1).copy()
-    pays_df2=cotes_du_jour2[cotes_du_jour2['Pays']==pays_input]
+
+    pays_df2=club_pred[club_pred['Pays']==pays_input]
     club_df=pays_df[pays_df['Équipe']==equipe_input]
-    club_cote = pays_df2[(pays_df2['Equipe Domicile'] == equipe_input) | (pays_df2['Equipe Extérieure'] == equipe_input)]
+    club_cote = club_pred[(club_pred['Equipe Domicile'] == equipe_input) | (pays_df2['Equipe Extérieure'] == equipe_input)]
     #Affichage des statistiques et cotes du pays sélectionné
     st.markdown(
         f"""
