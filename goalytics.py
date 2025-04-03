@@ -289,7 +289,6 @@ st.success(f"Bienvenue {user_name}!")
 
 if selection == "Accueil":
     st.markdown('<div class="title"> Goalytics - Decode The Game ©</div>', unsafe_allow_html=True)
-    st.write(f"{API_KEY}")
     st.markdown(
         f"""
         <div class="film-card">
