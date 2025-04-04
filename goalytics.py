@@ -252,8 +252,9 @@ cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe
 cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("St Pauli","St.Pauli")
 cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("FC Barcelone","Barcelona")
 cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Ath. Bilbao","Ath Bilbao")
-cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("M'Gladbach","B. Monchengladbach")
-
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Betis Séville","Betis")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Rayo","Rayo Vallecano")
+cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']]=cotes_du_jour2[['Equipe Domicile','Equipe Extérieure']].replace("Celta","Celta Vigo")
 
 pred_du_jour=pd.read_csv('https://raw.githubusercontent.com/Metimer/Goalytics/refs/heads/main/predictions_du_jour.csv')
 pred_du_jour['Pays']=pred_du_jour['Pays'].str.capitalize()
@@ -328,8 +329,10 @@ elif selection == "Statistiques et cotes":
     # Sélection du pays
     pays_input = st.selectbox("Choissisez un pays", list(pays_stats_scores.keys()))
     pays_df = pays_stats_scores[pays_input]
+    
     #Sélection du club
     equipe_input=st.selectbox("Choissisez un club", list(pays_df['Équipe']))
+    
     #Selection de l'url du logo
     url_logo = pays_df[pays_df['Équipe'] == equipe_input]['Écusson club'].iloc[0]
     ligue=pays_df[pays_df['Équipe'] == equipe_input]['Ligue'].iloc[0]
@@ -338,7 +341,7 @@ elif selection == "Statistiques et cotes":
     else:
         logo_ligue = None
 
-    pays_df2=club_pred[club_pred['Pays']==pays_input]
+    pays_df2=cotes_du_jour2[cotes_du_jour2['Pays']==pays_input]
     club_df=pays_df[pays_df['Équipe']==equipe_input]
     club_cote = pays_df2[(pays_df2['Equipe Domicile'] == equipe_input) | (pays_df2['Equipe Extérieure'] == equipe_input)]
     #Affichage des statistiques et cotes du pays sélectionné
