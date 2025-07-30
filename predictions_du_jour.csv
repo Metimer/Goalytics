@@ -1,7 +1,7 @@
 Pays,Ligue,Numéro de Pari,Date du Match,Heure de Fin de Validité,Equipe Domicile,Equipe Extérieure,Cote Domicile,Cote Nul,Cote Extérieur,Victoire Domicile pred,Match Nul pred,Victoire Extérieur pred
 france,l1-mcdonald-s,6,15/08,20h40,Rennes,Marseille,"2,85","3,40","1,87",5.068938195705414,3.363677501678467,2.055568504333496
-france,l1-mcdonald-s,7,16/08,16h55,Lens,Lyon,"1,99","3,15","2,65",2.337085485458374,3.477600574493408,2.6304370164871216
-france,l1-mcdonald-s,17,16/08,18h55,Monaco,Le Havre,"1,27","4,50","6,00",1.3572049975395204,3.409940004348755,6.68817753791809
+france,l1-mcdonald-s,7,16/08,16h55,Lens,Lyon,"1,99","3,20","2,60",2.337085485458374,3.477600574493408,2.6304370164871216
+france,l1-mcdonald-s,17,16/08,18h55,Monaco,Le Havre,"1,26","4,50","6,15",1.3572049975395204,3.409940004348755,6.68817753791809
 france,l1-mcdonald-s,14,16/08,21h00,Nice,Toulouse,"1,60","3,40","3,90",1.5659658908843994,3.4195785522460938,7.856962203979492
 france,l1-mcdonald-s,13,17/08,14h55,Brest,Lille,"3,25","3,30","1,77",3.281113386154175,3.3808038234710693,1.977174496650696
 france,l1-mcdonald-s,10,17/08,17h10,Metz,Strasbourg,"2,60","3,15","2,10",,,
@@ -9,22 +9,22 @@ france,l1-mcdonald-s,11,17/08,17h10,Angers,Paris FC,"2,40","2,95","2,30",,,
 france,l1-mcdonald-s,508,17/08,17h10,Auxerre,Lorient,"2,10","3,15","2,60",,,
 france,l1-mcdonald-s,9,17/08,20h40,Nantes,Paris SG,"5,90","4,70","1,25",13.327681636810302,4.765623569488525,1.1
 espagne,laliga,47,15/08,18h55,Girona,Rayo,"2,05","2,95","2,75",,,
-espagne,laliga,46,15/08,21h25,Villarreal,Real Oviedo,"1,25","4,05","6,90",,,
-espagne,laliga,45,16/08,16h55,Alaves,Levante,"2,00","2,85","3,00",,,
+espagne,laliga,46,15/08,21h25,Villarreal,Real Oviedo,"1,26","4,10","6,75",,,
+espagne,laliga,45,16/08,16h55,Alaves,Levante,"2,00","2,80","3,00",,,
 espagne,laliga,44,16/08,19h25,Mallorca,Barcelona,"4,20","3,65","1,48",8.322076320648193,3.7968056201934814,1.4675648510456085
 espagne,laliga,43,16/08,21h25,Valencia,Sociedad,"2,35","2,60","2,65",3.9114224910736084,3.1885902881622314,1.8470066785812378
-espagne,laliga,42,17/08,16h55,Celta,Getafe,"1,49","3,25","4,75",1.2021512985229492,3.935532808303833,9.666561174392701
+espagne,laliga,42,17/08,16h55,Celta,Getafe,"1,48","3,25","4,75",1.2021512985229492,3.935532808303833,9.666561174392701
 espagne,laliga,41,17/08,19h25,Ath. Bilbao,Sevilla,"1,53","3,25","4,40",,,
 espagne,laliga,40,17/08,21h25,Espanol,Atl. Madrid,"5,20","3,50","1,41",7.431702733039856,3.1885902881622314,1.3339492678642273
 espagne,laliga,656,18/08,20h55,Elche,Betis Séville,"3,10","3,00","1,88",,,
-espagne,laliga,657,19/08,20h55,Real Madrid,Osasuna,"1,15","4,95","8,50",1.1089189648628235,3.9668259620666504,8.272880125045775
-angleterre,premier-league,39,15/08,20h55,Liverpool,Bournemouth,"1,23","4,70","6,05",2.0754968643188474,3.4319710731506348,5.005737483501434
+espagne,laliga,657,19/08,20h55,Real Madrid,Osasuna,"1,16","4,95","8,30",1.1089189648628235,3.9668259620666504,8.272880125045775
+angleterre,premier-league,39,15/08,20h55,Liverpool,Bournemouth,"1,23","4,70","6,00",2.0754968643188474,3.4319710731506348,5.005737483501434
 angleterre,premier-league,38,16/08,13h25,Aston Villa,Newcastle,"2,00","3,25","2,60",2.9094443321228027,3.7812163829803467,1.999014973640442
 angleterre,premier-league,30,16/08,15h55,Sunderland,West Ham,"2,70","3,10","2,00",,,
 angleterre,premier-league,28,16/08,15h55,Tottenham,Burnley,"1,24","4,40","6,35",,,
 angleterre,premier-league,37,16/08,15h55,Brighton,Fulham,"1,68","3,35","3,40",1.2907064437866211,4.215651035308838,6.832302284240723
 angleterre,premier-league,24,16/08,18h25,Wolves,Man City,"4,90","4,00","1,36",7.765032529830933,3.9083409309387207,1.1817699432373048
-angleterre,premier-league,22,17/08,14h55,Nott'm Forest,Brentford,"1,88","3,25","2,90",1.1,5.814643859863281,19.212849617004395
+angleterre,premier-league,22,17/08,14h55,Nott'm Forest,Brentford,"1,88","3,25","2,85",1.1,5.814643859863281,19.212849617004395
 angleterre,premier-league,23,17/08,14h55,Chelsea,Crystal Palace,"1,46","3,70","4,30",2.047938108444214,3.411581516265869,5.049508094787598
 angleterre,premier-league,21,17/08,17h25,Man United,Arsenal,"2,90","3,15","1,89",8.225062847137451,3.8180699348449707,1.1400138020515442
-angleterre,premier-league,658,18/08,20h55,Leeds Utd,Everton,"2,20","2,95","2,45",,,
+angleterre,premier-league,658,18/08,20h55,Leeds Utd,Everton,"2,20","3,00","2,50",,,
