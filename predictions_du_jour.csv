@@ -1,45 +1,31 @@
 Pays,Ligue,Numéro de Pari,Date du Match,Heure de Fin de Validité,Equipe Domicile,Equipe Extérieure,Cote Domicile,Cote Nul,Cote Extérieur,Victoire Domicile pred,Match Nul pred,Victoire Extérieur pred
-france,l1-mcdonald-s,105,20/09,16h55,Nantes,Rennes,"3,55","3,35","1,97",3.096726894378662,3.4835195541381836,2.0132236003875734
-france,l1-mcdonald-s,106,20/09,18h55,Brest,Nice,"2,65","3,50","2,35",3.101240873336792,3.2470803260803223,2.1279506921768188
-france,l1-mcdonald-s,107,20/09,21h00,Lens,Lille,"2,35","3,35","2,75",3.281113386154175,3.3808038234710693,1.977174496650696
-france,l1-mcdonald-s,108,21/09,14h55,Paris FC,Strasbourg,"2,30","3,35","2,70",,,
-france,l1-mcdonald-s,109,21/09,17h10,Auxerre,Toulouse,"2,60","3,10","2,55",1.4738502502441406,3.4195785522460938,5.836600494384766
-france,l1-mcdonald-s,110,21/09,17h10,Le Havre,Lorient,"2,05","3,40","3,15",,,
-france,l1-mcdonald-s,111,21/09,17h10,Monaco,Metz,"1,24","5,80","8,30",,,
-france,l1-mcdonald-s,112,21/09,20h40,Marseille,Paris SG,"3,65","4,00","1,80",7.014569282531738,4.765623569488525,1.2733555555343627
-italie,serie-a,143,20/09,14h55,Bologna,Genoa,"1,75","3,10","4,45",2.210546278953552,3.107156276702881,5.019643008708954
-italie,serie-a,144,20/09,17h55,Verona,Juventus,"6,20","3,75","1,46",9.038860082626343,3.7155604362487793,1.455310559272766
-italie,serie-a,145,20/09,20h40,Udinese,Milan,"4,20","3,45","1,71",4.76245641708374,3.9139232635498047,1.5183474540710449
-italie,serie-a,146,21/09,12h25,Lazio,Roma,"2,75","3,00","2,35",4.068497657775879,3.415250778198242,1.76255464553833
-italie,serie-a,148,21/09,14h55,US Cremonese,Parma,"2,35","3,05","2,70",,,
-italie,serie-a,147,21/09,14h55,Torino,Atalanta,"3,20","3,20","2,00",7.349887847900391,3.6870923042297363,1.5727856636047364
-italie,serie-a,149,21/09,17h55,Fiorentina,Como,"2,35","3,15","2,60",1.1,5.010696887969971,12.311053657531739
-italie,serie-a,150,21/09,20h40,Inter,Sassuolo,"1,19","5,70","9,20",,,
-italie,serie-a,151,22/09,20h40,Napoli,AC Pisa 1909,"1,21","5,20",11,,,
-espagne,laliga,128,20/09,13h55,Girona,Levante,"1,79","3,50","3,70",,,
-espagne,laliga,129,20/09,16h10,Real Madrid,Espanol,"1,14","6,70","10,70",1.539716386795044,3.018141508102417,6.442375493049621
-espagne,laliga,130,20/09,18h25,Alaves,Sevilla,"2,20","3,00","3,10",4.8941298723220825,3.2378387451171875,2.228842043876648
-espagne,laliga,131,20/09,18h25,Villarreal,Osasuna,"1,50","4,00","5,10",1.4501248002052307,3.9668259620666504,7.6197580099105835
-espagne,laliga,132,20/09,20h55,Valencia,Ath. Bilbao,"2,90","2,95","2,30",,,
-espagne,laliga,133,21/09,13h55,Rayo,Celta,"2,10","3,20","3,05",,,
-espagne,laliga,134,21/09,16h10,Mallorca,Atl. Madrid,"4,45","3,40","1,65",13.963117480278015,4.21323823928833,1.2401430010795593
-espagne,laliga,135,21/09,18h25,Elche,Real Oviedo,"1,81","3,05","4,10",,,
-espagne,laliga,136,21/09,20h55,Barcelona,Getafe,"1,16","5,80","10,70",1.1,3.935532808303833,14.12805094718933
-allemagne,bundesliga-1,155,20/09,15h25,Augsburg,Mainz,"2,50","3,25","2,45",1.6263447999954224,4.316747665405273,4.686896324157715
-allemagne,bundesliga-1,156,20/09,15h25,Hambourg,Heidenheim,"1,85","3,50","3,50",,,
-allemagne,bundesliga-1,157,20/09,15h25,Hoffenheim,Bayern Munich,"7,10","5,80","1,25",11.591838073730468,4.848168849945068,1.1
-allemagne,bundesliga-1,158,20/09,15h25,Werder Bremen,Freiburg,"2,15","3,55","2,65",1.2092020511627197,7.324667930603027,9.725414371490478
-allemagne,bundesliga-1,159,20/09,18h25,RB Leipzig,Cologne,"1,58","4,05","4,30",,,
-allemagne,bundesliga-1,160,21/09,15h25,Ein Frankfurt,Union Berlin,"1,45","4,20","5,10",1.6116411209106447,3.3642964363098145,5.098407125473023
-allemagne,bundesliga-1,161,21/09,17h25,Leverkusen,M'gladbach,"1,48","4,35","4,60",2.08359432220459,3.6135458946228027,3.355600142478943
-allemagne,bundesliga-1,162,21/09,19h25,Dortmund,Wolfsburg,"1,40","4,60","5,10",3.1943271160125732,3.684917449951172,1.9410562992095948
-angleterre,premier-league,113,20/09,13h25,Liverpool,Everton,"1,35","4,70","6,30",1.1,4.756614685058594,12.349050521850586
-angleterre,premier-league,114,20/09,15h55,Brighton,Tottenham,"2,15","3,45","2,75",4.26122510433197,4.317592620849609,2.8216005861759186
-angleterre,premier-league,115,20/09,15h55,Burnley,Nott'm Forest,"3,20","3,30","2,00",,,
-angleterre,premier-league,116,20/09,15h55,West Ham,Crystal Palace,"2,95","3,25","2,15",2.40933895111084,3.411581516265869,2.596889877319336
-angleterre,premier-league,119,20/09,15h55,Wolves,Leeds Utd,"2,60","3,05","2,45",,,
-angleterre,premier-league,120,20/09,18h25,Man United,Chelsea,"2,60","3,60","2,30",7.593070983886719,3.969010591506958,1.4826099157333374
-angleterre,premier-league,121,20/09,20h55,Fulham,Brentford,"1,88","3,35","3,55",1.1,5.814643859863281,14.272402572631837
-angleterre,premier-league,123,21/09,14h55,Sunderland,Aston Villa,"3,30","3,20","1,96",,,
-angleterre,premier-league,122,21/09,14h55,Bournemouth,Newcastle,"2,15","3,35","2,75",2.9094443321228027,3.7812163829803467,1.999014973640442
-angleterre,premier-league,124,21/09,17h25,Arsenal,Man City,"1,80","3,55","3,70",3.2694873809814453,3.9083409309387207,2.3635398864746096
+france,l1-mcdonald-s,108,21/09,14h55,Paris FC,Strasbourg,"2,30","3,50","2,70",,,
+france,l1-mcdonald-s,109,21/09,17h10,Auxerre,Toulouse,"2,65","3,20","2,50",1.4738502502441406,3.4195785522460938,5.836600494384766
+france,l1-mcdonald-s,110,21/09,17h10,Le Havre,Lorient,"2,05","3,45","3,20",,,
+france,l1-mcdonald-s,111,21/09,17h10,Monaco,Metz,"1,24","6,00","8,50",,,
+france,l1-mcdonald-s,112,21/09,20h40,Marseille,Paris SG,"3,70","4,00","1,79",7.014569282531738,4.765623569488525,1.2733555555343627
+italie,serie-a,146,21/09,12h25,Lazio,Roma,"2,80","3,00","2,35",4.068497657775879,3.415250778198242,1.76255464553833
+italie,serie-a,148,21/09,14h55,US Cremonese,Parma,"2,45","3,05","2,65",,,
+italie,serie-a,147,21/09,14h55,Torino,Atalanta,"3,20","3,25","2,00",7.349887847900391,3.6870923042297363,1.5727856636047364
+italie,serie-a,149,21/09,17h55,Fiorentina,Como,"2,35","3,15","2,65",1.1,5.010696887969971,12.311053657531739
+italie,serie-a,150,21/09,20h40,Inter,Sassuolo,"1,20","5,90","9,10",,,
+italie,serie-a,151,22/09,20h40,Napoli,AC Pisa 1909,"1,23","5,00","10,50",,,
+espagne,laliga,133,21/09,13h55,Rayo,Celta,"2,05","3,20","3,10",,,
+espagne,laliga,134,21/09,16h10,Mallorca,Atl. Madrid,"4,50","3,45","1,63",13.963117480278015,4.21323823928833,1.2401430010795593
+espagne,laliga,135,21/09,18h25,Elche,Real Oviedo,"1,83","3,05","4,20",,,
+espagne,laliga,136,21/09,20h55,Barcelona,Getafe,"1,15","6,20","11,7",1.1,3.935532808303833,14.12805094718933
+espagne,laliga,88,23/09,18h55,Ath. Bilbao,Girona,"1,37","4,20","6,50",,,
+espagne,laliga,87,23/09,18h55,Espanol,Valencia,"2,10","3,15","3,05",2.103330373764038,3.3856120109558105,3.232859230041504
+espagne,laliga,83,23/09,21h25,Sevilla,Villarreal,"3,05","3,30","2,10",4.18844074010849,3.5809125900268555,2.39190639257431
+espagne,laliga,34,23/09,21h25,Levante,Real Madrid,"7,00","5,20","1,29",,,
+espagne,laliga,54,24/09,18h55,Getafe,Alaves,"2,10","2,85","3,40",1.6046953201293945,3.2318570613861084,5.298919916152954
+espagne,laliga,48,24/09,21h25,Sociedad,Mallorca,"1,60","3,35","4,35",2.4511525630950928,3.086655378341675,2.8165900468826295
+espagne,laliga,53,24/09,21h25,Atl. Madrid,Rayo,"1,44","4,10","5,80",,,
+espagne,laliga,35,25/09,19h25,Osasuna,Elche,"1,78","2,95","3,85",,,
+espagne,laliga,9,25/09,21h25,Real Oviedo,Barcelona,"7,80","5,40","1,19",,,
+allemagne,bundesliga-1,160,21/09,15h25,Ein Frankfurt,Union Berlin,"1,45","4,30","5,20",1.6116411209106447,3.3642964363098145,5.098407125473023
+allemagne,bundesliga-1,161,21/09,17h25,Leverkusen,M'gladbach,"1,48","4,45","4,70",2.08359432220459,3.6135458946228027,3.355600142478943
+allemagne,bundesliga-1,162,21/09,19h25,Dortmund,Wolfsburg,"1,41","4,70","5,20",3.1943271160125732,3.684917449951172,1.9410562992095948
+angleterre,premier-league,123,21/09,14h55,Sunderland,Aston Villa,"3,35","3,20","2,00",,,
+angleterre,premier-league,122,21/09,14h55,Bournemouth,Newcastle,"2,20","3,35","2,75",2.9094443321228027,3.7812163829803467,1.999014973640442
+angleterre,premier-league,124,21/09,17h25,Arsenal,Man City,"1,82","3,70","3,75",3.2694873809814453,3.9083409309387207,2.3635398864746096
